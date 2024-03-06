@@ -8,7 +8,7 @@ const Sidebar = () => {
   return (
     <aside className={isSidebarOpen ? 'sidebar show-sidebar' : 'sidebar'}>
         <div className="sidebar-container">
-            <button className='close-btn'>
+            <button className='close-btn' onClick={closeSidebar}>
                 <FaTimes/>
             </button>
             <div className="sidebar-links">
